@@ -160,7 +160,7 @@ through instance checks at run time like `=` does.
 We want some mapping of:
 
 ```
-predFactory -> a -> (a -> Boolean)
+predFactory :: a -> (a -> Boolean)
 ```
 
 We'll call it `->=`, and we want to use it like so:
