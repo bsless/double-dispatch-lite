@@ -1,4 +1,4 @@
-{:paths ["src/main/clojure"]
+{:paths ["src/main/clojure" "target/classes"]
  :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
  :aliases
  {:test
